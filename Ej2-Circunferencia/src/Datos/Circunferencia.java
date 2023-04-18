@@ -13,10 +13,13 @@ import java.util.Scanner;
 
 public class Circunferencia {
     
-    private static double radio;
+    private double radio;
 
     public Circunferencia(double radio) {
-        Circunferencia.radio = radio;
+        this.radio = radio;
+    }
+
+    public Circunferencia() {
     }
 
     public double getRadio() {
@@ -24,10 +27,10 @@ public class Circunferencia {
     }
 
     public void setRadio(double radio) {
-        Circunferencia.radio = radio;
+        this.radio = radio;
     }
  
-    public static Circunferencia crearCircunferencia(){
+    public Circunferencia crearCircunferencia(){
         Scanner leer = new Scanner(System.in);
         
         System.out.print("Ingrese el radio: ");

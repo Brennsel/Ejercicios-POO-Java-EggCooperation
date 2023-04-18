@@ -6,9 +6,9 @@ public class Ej2Circunferencia {
 
     public static void main(String[] args) {
        
-        Circunferencia c1;
+        Circunferencia c1 = new Circunferencia();
         
-        c1= Circunferencia.crearCircunferencia();
+        c1=c1.crearCircunferencia();
         
         c1.area();
         
