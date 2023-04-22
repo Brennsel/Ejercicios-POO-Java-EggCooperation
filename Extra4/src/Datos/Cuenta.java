@@ -7,7 +7,6 @@ package Datos;
 
 import java.util.Scanner;
 
-
 public class Cuenta {
     
     private float saldo;
@@ -38,10 +37,10 @@ public class Cuenta {
     }
 
     public void retirarDinero(){
-        
+
         Scanner leer = new Scanner(System.in);
         float extraccion;
-        
+
         System.out.println("Cuanto desea retirar?: ");
         extraccion=leer.nextFloat();
         

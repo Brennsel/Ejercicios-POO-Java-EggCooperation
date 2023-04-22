@@ -62,7 +62,7 @@ public class Puntos {
        x1 = leer.nextInt();
        
        System.out.print("Y: ");
-       x2 = leer.nextInt();
+       y1 = leer.nextInt();
        
        System.out.println("\nIngrese las coordenadas del segundo punto: ");
        System.out.print("X: ");

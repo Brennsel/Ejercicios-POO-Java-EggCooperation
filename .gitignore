@@ -14,3 +14,28 @@
 /Extra6/build/
 /Extra3Mejorado/nbproject/private/
 /Extra3Mejorado/build/
+Ej-Persona/build/classes/pooej1/POOej1.class
+Ej-Persona/nbproject/private/private.properties
+**/nbproject/private/
+**/nbproject/Makefile-*.mk
+**/nbproject/Package-*.bash
+
+# NetBeans specific #
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+nbactions.xml
+nb-configuration.xml
+.idea
+
+# Class Files #
+*.class
+
+# Package Files #
+*.jar
+*.war
+*.ear
+*.iml
